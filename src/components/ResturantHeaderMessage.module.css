@@ -1,0 +1,27 @@
+.resturantMessageContainer{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: translateY(-160px);
+    position: absolute;
+    z-index: 3;
+}
+.resturantMessage{
+    background-color: rgb(66, 66, 66);
+    border-radius: 20px;
+    font-size: large;
+    color: rgb(255, 255, 255);
+    width: 60rem;
+    height: 19rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 2rem;
+    letter-spacing: 0.2rem;
+    line-height: 1.5;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.resturantMessage2{
+    font-size: 1.5rem;
+}

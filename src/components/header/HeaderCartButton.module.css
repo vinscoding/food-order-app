@@ -1,0 +1,21 @@
+.cartButton{
+    width: 12%;
+    height: 4rem;
+    border-radius: 100px;
+    font-size: 1.6rem;
+    font-weight: bolder;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: rgb(112, 111, 111);
+}
+.numCartItem{
+    background-color: black;
+    width: 2.5rem;
+    height: 2.5rem;
+    clip-path: circle(50% at 50% 50%);
+    color: rgb(226, 222, 222);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

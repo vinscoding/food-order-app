@@ -1,0 +1,28 @@
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    height: 7rem;
+    width: 100%;
+    padding: 1rem 6rem;
+    background-color: rgb(29, 28, 28);
+    color: rgb(250, 250, 250);
+    font-size: 2rem;
+    z-index: 6;
+
+}
+.imgContainer{
+    background-image: url('./../../assets/food.jpg');
+    background-position: top;
+    background-size: cover;
+    width: 100%;
+    height: 50rem;
+    clip-path: polygon(0 0, 100% 0%, 100% 64%, 0% 100%);
+    position: relative;
+    z-index: 1;
+    
+}
