@@ -1,0 +1,27 @@
+* {
+    margin: 0px;
+    padding: 0px;
+  }
+  
+  *,
+  *::after,
+  *::before {
+    box-sizing: border-box;
+  }
+  
+  html {
+    box-sizing: inherit;
+    font-size: 62.5%; /*to make root 10px, default value is changed from 16px to 10 px*/
+  }
+
+body {
+ width: 100vw;
+ background-color: rgb(41, 40, 40);
+
+}
+
+#root{
+    width: 100%;
+   
+}
+
