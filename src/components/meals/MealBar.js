@@ -31,6 +31,7 @@ export default function Mealbar(props) {
             <input
               type="number"
               min="1"
+              max="10"
               step="1"
               defaultValue="1"
               name="quantity"

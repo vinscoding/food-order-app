@@ -7,7 +7,7 @@ const DummyMeals = [
     id: "m1",
     name: "Veg Biriyani",
     description: "Finest rice and veggies",
-    price: 220.99,
+    price: 220,
   },
   {
     id: "m2",
